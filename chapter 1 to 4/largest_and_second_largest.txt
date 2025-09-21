@@ -1,0 +1,12 @@
+number = int(input("Enter a number"))
+            
+largest = number
+
+
+
+for numbers in range(10):
+  User_input= int(input("Enter a number"))
+  if largest > User_input:
+    User_input = largest 
+
+print(largest) 

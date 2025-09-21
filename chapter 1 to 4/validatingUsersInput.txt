@@ -1,0 +1,12 @@
+count = 0
+while True:
+    first_input = int(input("Enter first number"))
+    second_input = int(input("Enter second number"))
+    answer = first_input + second_input
+    sum = int(input("The sum of the two numbers is ...?" ))
+    if  sum == answer:
+     print("Correct the number you got wrong was", count )
+     break
+    else:
+     print("incorrect")
+     count += 1
